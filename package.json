@@ -1,0 +1,31 @@
+{
+  "name": "asisodiya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.6",
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "scripts": {
+    "build": "postcss css/tailwind.css -o _site/css/tailwind.css",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisodiya2421/asisodiya.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sisodiya2421/asisodiya/issues"
+  },
+  "homepage": "https://github.com/sisodiya2421/asisodiya#readme"
+}
