@@ -11,18 +11,28 @@
     @apply ease-out;
     @apply fill-current; 
 }
-.icon:hover { @apply text-black; }
+
+.icon:hover { 
+    @apply text-black; 
+}
 
 .link { 
     @apply font-bold; 
     @apply text-teal-400;
     @apply  transition;
     @apply duration-500;
-    @apply ease-out; }
+    @apply ease-out; 
+}
+
 .link:hover { 
         @apply border-b-2; 
         @apply border-teal-400; 
     }
+
+.container-inner { 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+}
 
 @media (min-width: 640px) { .container-inner { max-width: 640px; } }
 @media (min-width: 768px) { .container-inner { max-width: 768px; } }
