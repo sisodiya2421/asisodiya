@@ -11,7 +11,7 @@
 }
 
 .icon:hover { 
-    @apply text-teal-400; 
+    @apply text-teal-600; 
 }
 
 .link { 
@@ -24,7 +24,7 @@
 
 .link:hover { 
         @apply border-b-2; 
-        @apply border-teal-400; 
+        @apply border-teal-600; 
     }
 
 .container-inner { 
