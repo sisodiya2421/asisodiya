@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 .icon { 
-    @apply w-8; 
-    @apply h-8;
     @apply text-indigo-800;
     @apply transition;
     @apply duration-500;
