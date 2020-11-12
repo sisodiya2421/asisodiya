@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .icon { 
+    @apply fill-current;
     @apply text-indigo-800;
     @apply transition;
     @apply duration-500;
-    @apply ease-out;
-    @apply fill-current; 
+    @apply ease-out; 
 }
 
 .icon:hover { 
