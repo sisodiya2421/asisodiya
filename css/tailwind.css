@@ -29,8 +29,28 @@
 
 .container-inner { 
     padding-left: 2rem; 
-    padding-right: 2rem; 
+    padding-right: 2rem;
 }
+
+.container-inner:hover { 
+    @apply overflow-auto;
+    --scrollbarBG: none;
+    --thumbBG:#434190;
+    scrollbar-width: thin;  /* Firefox */
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.container-inner::-webkit-scrollbar {
+    width: 3px;
+  }
+.container-inner::-webkit-scrollbar-track {
+    background:  none;
+  }
+.container-inner::-webkit-scrollbar-thumb {
+    background:  #434190 ;
+    border-radius: 20px;
+    border: 7px solid #FFF;
+  }
 
 @media (min-width: 640px) { .container-inner { max-width: 640px; } }
 @media (min-width: 768px) { .container-inner { max-width: 768px; } }
